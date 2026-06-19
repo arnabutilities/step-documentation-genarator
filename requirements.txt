@@ -1,3 +1,5 @@
 openai>=1.0.0
 python-slugify>=8.0.0
 python-dotenv>=1.0.0
+markdown>=3.5.0
+xhtml2pdf>=0.2.13

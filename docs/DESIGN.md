@@ -20,3 +20,4 @@
 - **Strict prompt contract + regex extraction** keeps step parsing deterministic and avoids a second LLM call.
 - **Lazy LLM client** means the API key is only required at call time, so `--help` and tests run without one.
 - **Bounded recursion** (depth / node budget / dedup) prevents the model from inventing sub-steps forever.
+- **Resumable by design** — existing `<slug>.md` files are reused instead of regenerated, so interrupted runs can continue and trees can be expanded incrementally without re-paying for prior work.
